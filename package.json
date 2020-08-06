@@ -1,15 +1,16 @@
 {
   "name": "fr-pgs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "lite": "lite-server",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --prod",
+    
   },
   "engines": {
     "node": "v12.14.1",
